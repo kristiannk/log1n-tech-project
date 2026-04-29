@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("top-header");
   const navLinks = Array.from(document.querySelectorAll(".nav-menu a[href^='#']"));
